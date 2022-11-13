@@ -35,7 +35,7 @@
                  </div>
 
                  <div class="mb-3">
-                  <label for="taskTitle" class="form-label">Task Tittle</label>
+                  <label for="taskTitle" class="form-label">Task Title</label>
                   <input type="text" class="form-control" id="taskTitle" placeholder="Learn web dev" required/>
                  </div>
 
@@ -120,7 +120,9 @@
                         
                         <input type="serch" class="form-control" placeholder="search Task ..."
                         aria-label="Search Task"
-                        aria-describedby="addon wrapping" />
+                        aria-describedby="addon wrapping" 
+                        onclick="searchTask.apply(this, arguments)"/>
+
                         <span class="input-group-text" id="addon-wrapper">
                             <i class="fas fa-search"></i>
                         </span>

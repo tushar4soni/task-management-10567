@@ -16,6 +16,14 @@ body{
     width: 100%;
     
 }
+
+.card task__card:hover{
+    transform:sacle(1.1);
+
+}
+.card task__card{
+    transition: transform .5s;
+}
 @media (min-width:768px){
     .add__new_btn_mobile_only{
         display: none;
